@@ -1,4 +1,4 @@
-class CreateRappers < ActiveRecord::Migration
+class CreateRappers < ActiveRecord::Migration[6.0]
   def change
     create_table :rappers do |t|
       t.string :name
